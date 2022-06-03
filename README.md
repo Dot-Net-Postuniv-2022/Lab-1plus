@@ -23,3 +23,9 @@ Implementati o aplicatie Angular care va suporta operatiile de mai sus comunican
 1. Adaugati inca un model in aplicatie: `SubActivity`: `Description`, `Numar ore`, `Dificultate`. Rulati migrarile necesare si creati functionalitatile CRUD pe controller / controllere.
 2. Implementati pe Frontend CRUD folosind Reactive Forms. Vor exista pagina separate pentru: afisare activitati, adaugare activitate, detalii activitate, editare activitate. Subactivitatile sa apara in pagina de Details pentru o activitate.
 3. **Bonus 2p**: in formularul de Adaugare activitate sa pot adauga, fara refresh, oricate subactivitati vreau. Ar trebui sa exista campuri pentru atributele unei subactivitati si butoane care genereaza sau sterg dinamic campurile formularului pentru subactivitati. Vezi finalul cursului 4 si codul aferent pentru exemple.
+
+
+### Pentru saptamana 6:
+1. Adaugati un model `User` cu campurile `Username`, `Password`, `IsConfirmed` si alte `3` campuri optionale.
+2. Implementati register si authenticate folosind JWT Tokens in endpoint-urile: `/api/token/register`, `api/token/confirm/<username>`, `api/token/login`.
+3. Asociati fiecare `Activity` cu un `User`.
