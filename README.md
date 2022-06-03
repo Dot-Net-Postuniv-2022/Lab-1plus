@@ -26,6 +26,6 @@ Implementati o aplicatie Angular care va suporta operatiile de mai sus comunican
 
 
 ### Pentru saptamana 6:
-1. Adaugati un model `User` cu campurile `Username`, `Password`, `IsConfirmed` si alte `3` campuri optionale.
+1. Adaugati un model `User` cu campurile `Username`, `Password`, `IsConfirmed` si alte `3` campuri optionale. Parola trebuie sa fie hashed.
 2. Implementati register si authenticate folosind JWT Tokens in endpoint-urile: `/api/token/register`, `api/token/confirm/<username>`, `api/token/login`.
 3. Asociati fiecare `Activity` cu un `User`.
