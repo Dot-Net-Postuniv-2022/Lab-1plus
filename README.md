@@ -29,3 +29,9 @@ Implementati o aplicatie Angular care va suporta operatiile de mai sus comunican
 1. Adaugati un model `User` cu campurile `Username`, `Password`, `IsConfirmed` si alte `3` campuri optionale. Parola trebuie sa fie hashed.
 2. Implementati register si authenticate folosind JWT Tokens in endpoint-urile: `/api/token/register`, `api/token/confirm/<username>`, `api/token/login`.
 3. Asociati fiecare `Activity` cu un `User`.
+
+### Pentru saptamana 7:
+1. Adaugati `Register` si `Login` pe frontend, folosind `HttpInterceptor`: autentificare doar cu username si password.
+2. Daca tokenul expira sau daca userul nu este logat cand acceseaza o pagina, ar trebui redirectat catre pagina de login.
+3. Daca userul face login dupa o redirectare, dupa login ar trebui redirectat catre pagina accesata initial.
+4. 
